@@ -44,7 +44,7 @@ app.registerExtension({
             const tabBarWrapper = document.createElement("div");
             tabBarWrapper.style.cssText = `
                 display: flex; align-items: center;
-                background: #2a2a2a; border-radius: 6px 6px 0 0;
+                background: #222222; border-radius: 6px 6px 0 0;
                 padding: 4px 6px; min-height: 28px;
             `;
 
@@ -103,7 +103,7 @@ app.registerExtension({
             textarea.placeholder = "场景提示词";
             textarea.style.cssText = `
                 width: 100%; height: 100px; background: #1a1a1a; color: #ddd;
-                border: 1px solid #444; border-top: none; border-radius: 0 0 6px 6px;
+                border: none; border-top: none; border-radius: 0 0 6px 6px;
                 padding: 8px 10px; font-size: 12px; resize: none;
                 box-sizing: border-box; font-family: sans-serif;
                 line-height: 1.4; outline: none;
