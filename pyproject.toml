@@ -1,0 +1,15 @@
+[project]
+name = "ComfyUI-MultiScene-Prompt"  # Unique identifier (immutable after creation)
+description = "多段、分段提示词可视化编辑节点，可动态增、减场景数量。适合搭配Wan2.2 + SVI 长镜头视频生成工作流使用。"
+version = "1.0.0"  # Semantic versioning
+requires-python = ">=3.9"
+license = { text = "Apache-2.0" }
+dependencies = []
+
+[project.urls]
+Repository = "https://github.com/mailzwj/ComfyUI-MultiScene-Prompt"
+
+[tool.comfy]
+PublisherId = "meet-ai"
+DisplayName = "ComfyUI-MultiScene-Prompt"
+Icon = ""
